@@ -1,0 +1,11 @@
+services:
+  todoapp:
+    build: .
+    container_name: todoapp_c
+    ports:
+      - '3000:3000'
+    volumes:
+      - .:/app
+      - /app/.next
+    stdin_open: true
+    tty: true
