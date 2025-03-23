@@ -24,7 +24,7 @@ Ensure you have the following installed:
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/your-username/nextjs-docker-todo.git
+   git clone https://github.com/iradukunda12/TodoApp.git
    cd nextjs-docker-todo
    ```
 
@@ -40,12 +40,12 @@ Ensure you have the following installed:
 
 - **Build Docker Image:**
   ```sh
-  docker build -t nextjs-todo-app .
+  docker build -t TodoApp.
   ```
 
 - **Run Docker Container:**
   ```sh
-  docker run -p 3000:3000 nextjs-todo-app
+  docker run -p 3000:3000 TodoApp
   ```
 
 - **Stop Containers:**
